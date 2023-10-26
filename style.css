@@ -35,6 +35,9 @@ nav{
    transition: 0.5s ease;
    z-index: 1;
 }
+.disappear {
+   opacity: 0;
+}
 body.nav-design nav{
    background-color: var(--gradient);
 }
@@ -86,11 +89,9 @@ nav .logo h1 span{
    font-size: 4.5rem;
    text-align: center;
    color: #fff;
-    -webkit-text-stroke: 0.1px #000;
 }
 .new-sec h2{
    font-size: 2rem;
-    -webkit-text-stroke: 0.3px #000;
 }
 .new-sec p{
    padding: 10px 0;
@@ -114,9 +115,6 @@ nav .logo h1 span{
       display: block;
       align-items: center;
       padding: 0;
-   }
-   .disappear {
-      opacity: 0;
    }
    .logo-btn{
       width: 100%;
@@ -272,13 +270,11 @@ nav .logo h1 span{
 }
 .planet-section h1{
    font-size: 3.5rem;
-   -webkit-text-stroke: 0.3px #000;
 }
 .planet-section p{
    font-size: 1.2rem;
    font-weight: bold;
    padding: 20px 8%;
-   -webkit-text-stroke: 0.3px #000;
 }
 .planet-section button{
    width: 180px;
