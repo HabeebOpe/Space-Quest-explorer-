@@ -21,7 +21,7 @@ body{
 .home{
    width: 100%;
    min-height: 100vh;
-   background-image: url("asset/orsrc78446.png");
+   background-image: url("asset/orsrc78446~2.png");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -85,7 +85,8 @@ nav .logo h1 span{
    padding: 10px 0;
    font-size: 4.5rem;
    text-align: center;
-    -webkit-text-stroke: 0.3px #000;
+   color: #fff;
+    -webkit-text-stroke: 0.1px #000;
 }
 .new-sec h2{
    font-size: 2rem;
