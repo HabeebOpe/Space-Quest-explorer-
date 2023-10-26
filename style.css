@@ -31,10 +31,11 @@ nav{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   /*background-color: var(--gradient);
-   /*padding: 20px 10%;*/
    transition: 0.5s ease;
    z-index: 1;
+}
+.disappear{
+   opacity: 0;
 }
 body.nav-design nav{
    background-color: var(--gradient);
