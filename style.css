@@ -20,7 +20,7 @@ body{
 .home{
    width: 100%;
    min-height: 100vh;
-   background-image: url(asset/background1.jpg);
+   background-image: url("asset/orsrc78446.png");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -86,9 +86,11 @@ nav .logo h1 span{
    padding: 10px 0;
    font-size: 4.5rem;
    text-align: center;
+    -webkit-text-stroke: 0.3px #000;
 }
 .new-sec h2{
-   font-size: 2rem
+   font-size: 2rem;
+    -webkit-text-stroke: 0.3px #000;
 }
 .new-sec p{
    padding: 10px 0;
@@ -173,18 +175,18 @@ nav .logo h1 span{
    }
 }
 .multiverse-section{
+   height: 50vh;
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 10% 0;
-   background-color: var(--primary-grey);
+   padding: 5% 0;
    overflow: hidden;
 }
 .multiverse-section div{
    text-align: center;
 }
 .multiverse-section div h1{
-   font-size: 6rem;
+   font-size: 7rem;
 }
 .multiverse-section div p{
    font-size: 20px;
@@ -215,6 +217,7 @@ nav .logo h1 span{
    padding: 10px;
 }
 .recent-launch-sec li{
+   background-position: center;
    position: relative;
    height: 350px;
    width: 30%;
@@ -252,14 +255,14 @@ nav .logo h1 span{
    }
 }
 .planet-section{
-   background-image: url(asset/orsrc78446.png);
+   background-image: url(asset/orsrc68063.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
    display: flex;
    align-items: center;
    justify-content: center;
-   height: 100vh;
+   height: 70vh;
    padding: 5%;
    text-align: center;
    color: #fff;
@@ -362,7 +365,7 @@ nav .logo h1 span{
 }
 .today-img{
    width: 47%;
-   height: 350px;
+   height: 300px;
    overflow: hidden;
 }
 .today-img img{
@@ -386,14 +389,103 @@ nav .logo h1 span{
       width: 100%;
    }
 }
-
-
-
-
-
-
-
-.space{
-   height: 100vh;
-   background-color: gold;
+.topic-section{
+   padding: 5%;
+}
+.topic-section h1{
+   text-align: center;
+   font-size: 2rem;
+   margin: 10px 0;
+}
+.topic-sec{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.topic-sec li{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   height: 300px;
+   width: 22%;
+   margin: 5px;
+   overflow: hidden;
+}
+.topic-sec li img{
+   width: auto;
+   height: 100%;
+}
+.topic-sec li h2{
+   position: absolute;
+   bottom: 0;
+   font-size: 2rem;
+   color: var(--body);
+   padding: 10px;
+}
+.topic-sec li h2 i{
+   font-size: 17px;
+   font-weight: lighter;
+   padding: 10px;
+}
+@media (max-width: 600px){
+   .topic-sec{
+      overflow-x: auto;
+      justify-content: flex-start;
+   }
+   .topic-sec li{
+      min-width: 230px;
+   }
+}
+footer{
+   padding: 15% 5%;
+   text-align: center;
+}
+footer p{
+   font-size: 1.2rem;
+   padding: 10px 0;
+}
+.follow-icon{
+   display: flex;
+   justify-content: center;
+}
+.follow-icon li{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: var(--hex);
+   margin: 10px;
+   transition: 0.2s ease;
+}
+.follow-icon li:hover{
+   background-color: var(--primary-grey);
+}
+footer ul li i{
+   font-size: 18px;
+}
+.items{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+}
+.items li{
+   padding: 10px;
+   background-color: var(--hex);
+   font-size: 16px;
+   margin: 3px;
+   transition: 0.3s ease;
+}
+.items li:hover{
+   background-color: var(--primary-grey);
+}
+footer small{
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+   padding: 10px;
+   padding-top: 5%;
 }
