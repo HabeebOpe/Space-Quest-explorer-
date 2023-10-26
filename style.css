@@ -4,6 +4,7 @@
    padding: 0;
    list-style: none;
    font-family: 'Rajdhani', sans-serif;
+   scroll-behavior: smooth;
 }
 :root{
    --body: #fff;
@@ -33,9 +34,6 @@ nav{
    justify-content: space-between;
    transition: 0.5s ease;
    z-index: 1;
-}
-.disappear{
-   opacity: 0;
 }
 body.nav-design nav{
    background-color: var(--gradient);
@@ -115,6 +113,9 @@ nav .logo h1 span{
       display: block;
       align-items: center;
       padding: 0;
+   }
+   .disappear {
+      opacity: 0;
    }
    .logo-btn{
       width: 100%;
@@ -323,8 +324,8 @@ nav .logo h1 span{
    border-bottom: 3px solid var(--primary);
 }
 .article-sec ul li img{
-   min-width: 100px !important;
-   height: 100px !important;
+   width: 100px;
+   height: 100px;
    border-radius: 50%;
    padding-right: 10px;
 }
